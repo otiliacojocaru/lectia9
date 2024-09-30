@@ -1,0 +1,66 @@
+:root{
+   --bg-color: linear-gradient(150deg,rgb(4, 4, 182), rgba(33, 87, 152, 0.597), rgba(28, 28, 163, 0.716), rgb(9, 9, 170), rgb(3, 3, 116));
+   --btn-fond:48px;
+
+}
+
+
+/* .hover-effect{
+    border: none;
+    height: 80px;
+    width: 200px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    background-image: var(--bg-color);
+    font-size: var(--btn-fond);
+    background-size: 300%;
+    background-position: center;
+    transition: background-position 0.5s;
+}
+
+.hover-effect:hover{
+    background-position: right;
+} */
+
+/* .bg-animation{
+    height: 500px;
+    background-image: var(--bg-color);
+    background-size: 400%;
+    background-position: left;
+    animation: bg-animat 20s infinite alternate;
+
+}
+
+@keyframes bg-animat{
+    0%{
+        background-position: left;
+    }
+
+    100%{
+        background-position: right;
+    }
+} */
+
+.title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--btn-fond);
+    text-transform: uppercase;
+    background-image: var(--bg-color);
+    background-size: 300%;
+    background-position: left;
+    animation: titlebg 3s infinite alternate;
+    background-clip: text;
+    color: transparent;
+}
+
+@keyframes titlebg{
+    0%{
+        background-position: left;
+    }
+
+    100%{
+        background-position: right;
+    }
+
+}
